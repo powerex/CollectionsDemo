@@ -1,17 +1,6 @@
 package ua.edu.npu.annotations;
 
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Method;
-
-@Retention(RetentionPolicy.RUNTIME)
-@interface RuntimeAnnotation {
-    String description() default "Default description";
-    int value() default 0;
-}
-
-@Retention(RetentionPolicy.RUNTIME)
-@interface Marker {}
 
 public class ReflectionDemo {
 
