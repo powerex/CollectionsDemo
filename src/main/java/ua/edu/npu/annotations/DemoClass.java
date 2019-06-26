@@ -1,5 +1,6 @@
 package ua.edu.npu.annotations;
 
+@SimpleAnnotation(description = "Dec", value = 100)
 public class DemoClass {
 
     public static void main(String[] args) {
